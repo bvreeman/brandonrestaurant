@@ -7,11 +7,40 @@ s-light: #66ffa6;
 s-dark: #00b248;
 font-family: 'Rammetto One', cursive;
 */
+
+/* global styles */
 body {
     background-color: #ff4081;
 }
 
 h1,
 h2{
+    text-align: center;
     font-family: 'Rammetto One', cursive;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 36px;
+}
+
+/*header styles*/
+header li {
+    margin: 0 10px
+}
+
+header li:first-of-type {
+    margin-left: 0;
+}
+
+/*footer styles*/
+footer a{
+    font-size: 64px;
 }
