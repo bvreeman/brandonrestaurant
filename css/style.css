@@ -1,47 +1,33 @@
-/*
-primary: #ff4081;
-p-light: #ff79b0;
-p-dark: #c60055;
-secondary: #e676e6;
-s-light: #66ffa6;
-s-dark: #00b248;
-font-family: 'Rammetto One', cursive;
-*/
-
 /* global styles */
 body {
-    background-color: #ff4081;
+  background-color: #00b248;
 }
-
 h1,
-h2{
-    text-align: center;
-    font-family: 'Rammetto One', cursive;
+h2 {
+  text-align: center;
+  font-family: 'Rammetto One', cursive;
 }
-
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
-
 li {
-    display: inline-block;
+  display: inline-block;
 }
-
 a {
-    font-size: 36px;
+  font-size: 36px;
+  color: #ff4081;
 }
-
+label {
+  color: #ff4081;
+}
 /*header styles*/
 header li {
-    margin: 0 10px
+  margin: 0 10px;
 }
-
 header li:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
-
 /*footer styles*/
-footer a{
-    font-size: 64px;
+footer a {
+  font-size: 64px;
 }
-
