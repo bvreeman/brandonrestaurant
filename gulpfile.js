@@ -42,3 +42,4 @@ gulp.task('htmlbeautify', function() {
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
+
